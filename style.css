@@ -1,3 +1,4 @@
+
 /* General Page Style */
 
 * {
@@ -180,3 +181,12 @@ footer {
         font-size: 24px;
     }
 }
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
