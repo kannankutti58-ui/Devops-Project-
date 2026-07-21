@@ -1,13 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Git Collaboration Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Result Management System</title>
+
+    <!-- Link CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Welcome to Our Project</h1>
-    <p>Created by Team Members</p>
+    <!-- Header Section -->
+    <header>
+        <h1>Student Result Management System</h1>
+        <p>View and manage student academic results</p>
+    </header>
+
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Student Details -->
+        <section class="card">
+            <h2>Student Details</h2>
+
+            <div class="form-group">
+                <label>Student Name</label>
+                <input type="text" placeholder="Enter student name">
+            </div>
+
+            <div class="form-group">
+                <label>Register Number</label>
+                <input type="text" placeholder="Enter register number">
+            </div>
+
+            <div class="form-group">
+                <label>Department</label>
+                <select>
+                    <option>Select Department</option>
+                    <option>Computer Science and Engineering</option>
+                    <option>Information Technology</option>
+                    <option>Electronics and Communication Engineering</option>
+                    <option>Electrical and Electronics Engineering</option>
+                    <option>Mechanical Engineering</option>
+                </select>
+            </div>
+        </section>
+
+
+        <!-- Marks Section -->
+        <section class="card">
+            <h2>Subject Marks</h2>
+
+            <div class="marks-grid">
+
+                <div class="form-group">
+                    <label>Java Programming</label>
+                    <input type="number" placeholder="Enter marks">
+                </div>
+
+                <div class="form-group">
+                    <label>Database Management</label>
+                    <input type="number" placeholder="Enter marks">
+                </div>
+
+                <div class="form-group">
+                    <label>Computer Networks</label>
+                    <input type="number" placeholder="Enter marks">
+                </div>
+
+                <div class="form-group">
+                    <label>Operating Systems</label>
+                    <input type="number" placeholder="Enter marks">
+                </div>
+
+                <div class="form-group">
+                    <label>Web Technology</label>
+                    <input type="number" placeholder="Enter marks">
+                </div>
+
+            </div>
+
+            <button>View Result</button>
+        </section>
+
+
+        <!-- Result Section -->
+        <section class="card result-card">
+
+            <h2>Result Summary</h2>
+
+            <div class="result-details">
+
+                <div>
+                    <span>Total Marks</span>
+                    <strong>425 / 500</strong>
+                </div>
+
+                <div>
+                    <span>Percentage</span>
+                    <strong>85%</strong>
+                </div>
+
+                <div>
+                    <span>Grade</span>
+                    <strong>A</strong>
+                </div>
+
+                <div>
+                    <span>Result</span>
+                    <strong class="pass">PASS</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Student Result Management System</p>
+    </footer>
 
 </body>
 </html>
